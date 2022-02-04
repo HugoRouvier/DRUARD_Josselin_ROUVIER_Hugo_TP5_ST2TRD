@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp", "csharp.csproj", "{176C0214-9136-4079-8DAB-11D7420C3881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuildedRose.Test", "..\GuildedRose\GuildedRose.Test.csproj", "{293EDA68-B1BE-48DF-BACC-BE80E0018B6B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{176C0214-9136-4079-8DAB-11D7420C3881} = {176C0214-9136-4079-8DAB-11D7420C3881}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{176C0214-9136-4079-8DAB-11D7420C3881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176C0214-9136-4079-8DAB-11D7420C3881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176C0214-9136-4079-8DAB-11D7420C3881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293EDA68-B1BE-48DF-BACC-BE80E0018B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293EDA68-B1BE-48DF-BACC-BE80E0018B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293EDA68-B1BE-48DF-BACC-BE80E0018B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293EDA68-B1BE-48DF-BACC-BE80E0018B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CF1AC96-2221-438E-A0CD-FB021C42D7CA}
+	EndGlobalSection
+EndGlobal
