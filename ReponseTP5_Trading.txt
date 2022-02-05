@@ -40,5 +40,5 @@ Yes i think so.
 
 						PART 4
 -------------------------------------------------------------------------------------------------------------------
-1.	Use threads to launch each item's update to handle concurrent tasks. We would replace the FOR loop, that we call every update to go through the list of Items, by threads that calculate item's updates at the same time.
+1.	Use threads to launch each item's update to handle concurrent tasks (with a limited number of threads). We would replace the FOR loop, that we call every update to go through the list of Items, by threads that calculate item's updates at the same time.
 2.	Regroup item by categories to 
