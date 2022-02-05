@@ -1,0 +1,44 @@
+						PART 1
+-------------------------------------------------------------------------------------------------------------------
+
+1. What is this code about?
+
+This code represent items that are sold in a tavern through days. 
+We have the information on names, expiration dates and qualities of all items that can change over days,
+with specific conditions.
+
+2. Can you clearly identify the name of all the goods stored in the Guilded Rose?
+
+The name of all the goods stored in the Guilded Rose are : 
+	- +5 Dexterity Vest
+	- Aged Brie
+	- Elixir of the Mongoose
+	- Sulfuras, Hand of Ragnaros (x2)
+	- Backstage passes to a TAFKAL80ETC concert (x3)
+	- Conjured Mana Cake
+
+3. What happens when the day is over?
+
+When the day is over, the atribute quality and Selling of all item are modified or unchanged, based on given conditions.
+
+4. What happens to cheese when the day is over?
+
+Cheese's quality grows as days pass.
+
+
+5. What happens when a concert ticket goes over its expiration day?
+
+Its quality goes to 0.
+
+6. What makes this code hard to read?
+
+There are a lot of nested IF statement. 
+
+7. Do you think the rules are clear enough so that you could rework the entire solution from scratch?
+
+Yes i think so. 
+
+						PART 4
+-------------------------------------------------------------------------------------------------------------------
+1.	Use threads to launch each item's update to handle concurrent tasks. We would replace the FOR loop, that we call every update to go through the list of Items, by threads that calculate item's updates at the same time.
+2.	Regroup item by categories to 
